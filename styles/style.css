@@ -36,6 +36,25 @@ section#phone {
     background: url('../images/frame-iphone.png') no-repeat;
 }
 
+section#socials {
+    text-align: right;
+}
+
+section#socials img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#socials img:hover {
+    border: 2px solid black;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0623);
+    transition: transform .3s;
+}
+
 iframe#screen {
     position: relative;
     top: 80px;
